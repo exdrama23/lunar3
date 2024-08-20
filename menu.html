@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quem-somos.html">Quem Somos</a>
+            <a href="fale-conosco.html">Fale Conosco</a>
+            <a href="menu.html">Menu</a>
+            <button id="cartButton">Carrinho</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Menu</h1>
+        <div id="menuItems"></div>
+        <div id="cart">
+            <h2>Carrinho</h2>
+            <ul id="cartItems"></ul>
+            <button id="generateOrderCode">Gerar código do pedido</button>
+            <button id="orderDelivery">Fazer pedido via Delivery</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Quentinhas do Grau</p>
+    </footer>
+    <script src="menu-api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
